@@ -132,3 +132,5 @@ dist
  # other
 .DS_Store
 pnpm-lock.yaml
+bak
+*.bak
