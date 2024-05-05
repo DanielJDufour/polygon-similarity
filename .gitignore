@@ -134,3 +134,8 @@ dist
 pnpm-lock.yaml
 bak
 *.bak
+test-data/*.geojson
+test-data/*/*.geojson
+test-data/*/*/*.geojson
+test-data/*/*/*/*.geojson
+.*

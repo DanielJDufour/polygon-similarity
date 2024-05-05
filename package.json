@@ -1,0 +1,40 @@
+{
+  "name": "polygon-similarity",
+  "version": "0.0.0",
+  "description": "Compare Polygons through Rasterization.",
+  "main": "index.js",
+  "files": [
+    "./src/index.js"
+  ],
+  "scripts": {
+    "format": "npx prettier --print-width=200 --trailing-comma=none --write *.js src/*.js",
+    "setup": "cd test-data && sh setup.sh",
+    "test": "TEST_TIMED=true node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/polygon-similarity.git"
+  },
+  "keywords": [
+    "geometry",
+    "geospatial",
+    "gis",
+    "map",
+    "polygon",
+    "raster"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/polygon-similarity/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/polygon-similarity#readme",
+  "dependencies": {
+    "bbox-fns": "^0.20.2",
+    "dufour-peyton-intersection": "^0.2.1"
+  },
+  "devDependencies": {
+    "flug": "^2.7.2",
+    "geojson-random-shift": "^0.0.1"
+  }
+}
