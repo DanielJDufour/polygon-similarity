@@ -2,7 +2,7 @@
   "name": "polygon-similarity",
   "version": "0.0.0",
   "description": "Compare Polygons through Rasterization.",
-  "main": "index.js",
+  "main": "./index.js",
   "files": [
     "./src/index.js"
   ],
